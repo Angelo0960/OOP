@@ -10,11 +10,21 @@ class Activity{
         dog.setNumber(3);
         System.out.println(dog.showNum());
 
-        Dog doggy[]={"Destroyer","UrAnus","Berto","Berting","Earth"};
-        dog.listPup(doggy);
-
-        for(i=0; i<= dog.showNames().length; i++)
-        System.out.println(dog.showNames()[i]);
+        Dog dog1= new Dog();
+        dog1.setName("hatadog");
+        Dog dog2= new Dog();
+        dog2.setName("kaleidoscope");
+        Dog dog3= new Dog();
+        dog3.setName("Destroyer");
+        Dog dog4= new Dog();
+        dog4.setName("UrAnus");
+        Dog dog5= new Dog();
+        dog5.setName("Dipper");
+      
+        Dog hatdog[]={dog1,dog2,dog3,dog4,dog5};
+        dog.listPup(hatdog);
+  
+        dog.showPuppies();
         
     }
 }

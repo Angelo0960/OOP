@@ -21,11 +21,13 @@ public class Dog {
     public int showNum(){
         return numPup;
     }
-    public void listPup(Dog[] pupSet){
+    public void listPup(Dog pupSet[]){
         puppies = pupSet;
     }
-    public Dog[] showNames(){
-        return puppies;
+
+    public void showPuppies(){
+    for(int i=0; i< puppies.length; i++)
+    System.out.println(puppies[i].showName());
     }
 }
 
