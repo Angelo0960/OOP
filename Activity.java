@@ -1,4 +1,4 @@
-public class Activity3 {
+public class Activity {
     public static void main(String[] args) {
         
         Students student1 = new Students("Juan", "Batangas PH", "BSIT", 2);
